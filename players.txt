@@ -1,0 +1,28 @@
+package oops4;
+
+public class players {
+	public String Name;
+	public char Symbol;
+	
+	players(String Name,char Symbol) {
+		setName(Name);
+		setSymbol(Symbol);
+		
+	}
+	public void setName(String Name) {
+		if(!Name.isEmpty()) {
+		this.Name=Name;
+	}
+	}
+	public String getName() {
+		return this.Name;
+	}
+	public void setSymbol(char Symbol) {
+	if(Symbol !='\0') {
+		this.Symbol=Symbol;
+	}
+	}
+	public char getSymbol() {
+		return this.Symbol;
+	}
+}
